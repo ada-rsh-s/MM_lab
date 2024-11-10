@@ -4,7 +4,7 @@
 
 void	main(void)
 {
-	char location[20], label[20], opcode[20], operand[20], obj[20];
+	char location[20], label[20], opcode[20], operand[20];
 	char optabcode[20], opaddr[20];
 	char symname[20], symaddr[20];
 	int pgmsize = 23;
