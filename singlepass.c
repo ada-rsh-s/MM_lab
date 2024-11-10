@@ -3,7 +3,7 @@
 #include <string.h>
 
 void	main(void)
-{
+{  
 	FILE *finput, *foptab, *fsym, *fout, *fobj;
 	finput = fopen("input.txt", "r");
 	foptab = fopen("optab.txt", "r");
