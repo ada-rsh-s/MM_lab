@@ -53,7 +53,7 @@ void	main(void)
 			{
 				strcpy(objs[si].lab, operand);
 				strcpy(objs[si].obNu, nu);
-				strcpy(objs[si].loc, "");
+				strcpy(objs[si].loc, "****");
 				locctr += 3;
 				si++;
 			}
