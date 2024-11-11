@@ -25,7 +25,7 @@ void main() {
         } 
         
         if(k == frame_length) { 
-            frames[count++] = ref_str[i];
+            frames[count++] = ref_str[  i];
             PF++; 
         } else { 
             PH++; 

@@ -17,7 +17,7 @@ int main(){
     for(int i=1;i<no_process;i++){
         wt[i]=wt[i-1]+bt[i-1]; 
         tat[i-1]=wt[i-1]+bt[i-1];         
-    }
+    }   
     tat[no_process-1]=wt[no_process-1]+bt[no_process-1];
 
 	printf("Process\tBurst Time\tWaiting Time\tcompletion time\tTurnaround Time\n");
