@@ -53,7 +53,7 @@ void	main(void)
 			{
 				strcpy(objs[si].lab, operand);
 				strcpy(objs[si].obNu, nu);
-				strcpy(objs[si].loc, "****");
+				strcpy(objs[si].loc, "");
 				locctr += 3;
 				si++;
 			}
@@ -132,6 +132,7 @@ void	main(void)
 	{
 		printf("%s %s %s\n", objs[i].lab, objs[i].obNu, objs[i].loc);
 	}
+
 
 	return ;
 }
